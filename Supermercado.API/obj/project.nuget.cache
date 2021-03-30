@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yQnKLb8O1r59kmk3VaQY2EML28e6SeqznJhqIzb49NKnGuKTsE7/LkUmQFk+QfdZE774HwktxoOsf43R2Mimaw==",
+  "dgSpecHash": "V4ZhknZ+rOHOI4Qu5gr4VTGSnehADBgum8XWpwMyE5EtDl0V4vez/kQAtfRorThu6gh3WimJlkvWyh6qjlTbRw==",
   "success": true,
   "projectFilePath": "f:\\OneDrive - Fatec Centro Paula Souza\\Cursos\\Curso de .NET\\API RESTful\\src\\Supermercado.API\\Supermercado.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.4\\microsoft.entityframeworkcore.5.0.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.4\\microsoft.entityframeworkcore.abstractions.5.0.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.4\\microsoft.entityframeworkcore.analyzers.5.0.4.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.4\\microsoft.entityframeworkcore.inmemory.5.0.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.4\\microsoft.entityframeworkcore.relational.5.0.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",

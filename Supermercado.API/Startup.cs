@@ -6,11 +6,17 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Supermercado.API.Domain.Repositories;
+using Supermercado.API.Domain.Services;
+using Supermercado.API.Persistence.Contexts;
+using Supermercado.API.Persistence.Repositories;
+using Supermercado.API.Services;
 
 namespace Supermercado.API
 {
@@ -32,6 +38,13 @@ namespace Supermercado.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Supermercado.API", Version = "v1" });
             });
+
+            services.AddDbContext<AppDbContext>(options => {
+                options.UseInMemoryDatabase("supermercado-api-in-memory");
+            });
+
+            services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+            services.AddScoped<ICategoriaService, CategoriaService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

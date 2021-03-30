@@ -3,7 +3,7 @@ using Supermercado.API.Domain.Models;
 
 namespace Supermercado.API.Persistence.Contexts
 {
-    public class AppDbContext
+    public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) 
         { }
